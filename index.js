@@ -101,9 +101,9 @@ const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'VERSION:3.0\n' 
             + 'FN:デニス\n' // full name
             + 'ORG:Owner Dns Bot;\n' // the organization of the contact
-            + 'TEL;type=CELL;type=VOICE;waid=6285866295942:+62 858-6629-5942\n' // WhatsApp ID + phone number
+            + 'TEL;type=CELL;type=VOICE;waid=5511961201454:+55 551196120-1454\n' // WhatsApp ID + phone number
             + 'END:VCARD'
-prefix = '!'
+prefix = '.'
 blocked = []
 limitawal = '999999999'
 cr = '*Denis Putra*'
@@ -145,7 +145,7 @@ const getLevelingXp = (userId) => {
             }
         }
 
-        const addLevelingXp = (userId, amount) => {
+        const addLevelingXp = (useñrId, amount) => {
             let position = false
             Object.keys(_level).forEach((i) => {
                 if (_level[i].jid === userId) {
@@ -332,9 +332,9 @@ async function starts() {
 				try {
 					ppimg = await client.getProfilePicture(`${num.split('@')[0]}@c.us`)
 				} catch {
-					ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
+					ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uplo'
 				}
-				teks = `Sayonara @${num.split('@')[0]}👋`
+				teks = `Vai embora seu fdp @${num.split('@')[0]}👋`
 				let buff = await getBuffer(ppimg)
 				client.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 			}
@@ -382,7 +382,7 @@ async function starts() {
         		const bisakah = ['Bisa','Tidak Bisa']
 		        const kapankah = ['Hari Lagi','Minggu Lagi','Bulan Lagi','Tahun Lagi']
 			const botNumber = client.user.jid
-			const ownerNumber = ["5522996215481@s.whatsapp.net"] // replace this with your number
+			const ownerNumber = ["5511961201454@s.whatsapp.net"] // replace this with your number
 			const nomorOwner = [ownerNumber]
 			const isGroup = from.endsWith('@g.us')
 			const totalchat = await client.chats.all()
@@ -399,13 +399,13 @@ async function starts() {
 			const isSimi = isGroup ? samih.includes(from) : false
 			const isOwner = ownerNumber.includes(sender)
                         const isLevelingOn = isGroup ? _leveling.includes(groupId) : false
-                        const NomerOwner = '6285866295942@s.whatsapp.net'
+                        const NomerOwner = '5511961201454@s.whatsapp.net'
                         const isEventon = isGroup ? event.includes(from) : false
                         const isRegister = checkRegisteredUser(sender)
                         pushname = client.contacts[sender] != undefined ? client.contacts[sender].vname || client.contacts[sender].notify : undefined
 
                         // Options
-                        const botName = 'Dns Bot'
+                        const botName = 'Eren bot'
                         const ownerName = ''
                         const BarBarKey = 'YOUR_APIKEY'
 
