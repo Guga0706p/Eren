@@ -10,7 +10,6 @@ const //database
 ║
 ║*${prefix}gay [@]*
 ║*${prefix}wame*
-║*${prefix}spamcall*
 ║*${prefix}play (nome da msc)*
 ║
 ╠══✪〘 MENU 〙✪══
@@ -20,11 +19,7 @@ const //database
 ║ *${prefix}meme*
 ║ *${prefix}memeindo*
 ║ *${prefix}tts*
-║ *${prefix}lolih [on]*
-║ *${prefix}nsfwloli [off]*
-║ *${prefix}url2img*
-║ *${prefix}leens [na legenda]*
-║ *${prefix}wait [na legenda]*
+║ *${prefi
 ║ *${prefix}setprefix*
 ║
 ╠══✪〘 OUTROS 〙✪══
@@ -52,7 +47,6 @@ const //database
 ║ *${prefix}setnome*
 ║ *${prefix}setfoto*
 ║ *${prefix}grupoinfo*
-║ *${prefix}ytmp4*
 ║ *${prefix}bomdia*
 ║ *${prefix}boanoite*
 ║ *${prefix}marcar*
@@ -61,27 +55,9 @@ const //database
 ║
 ╠══✪〘 IMAGENS 〙✪══
 ║
-║ *${prefix}loli* [off]
-║ *${prefix}loli1*
-║ *${prefix}hentai*
-║ *${prefix}porno*
 ║ *${prefix}boanoite*
 ║ *${prefix}bomdia*
 ║ *${prefix}boatarde*
-║ *${prefix}mia*
-║ *${prefix}mia1*
-║ *${prefix}mia2*
-║ *${prefix}belle*
-║ *${prefix}belle1*
-║ *${prefix}belle2*
-║ *${prefix}belle3*
-║ *${prefix}akeno*
-║ *${prefix}meme*   
-║ *${prefix}lofi*
-║ *${prefix}malkova*
-║ *${prefix}canal*
-║ *${prefix}nsfwloli1*
-║ *${prefix}reislin*
 ║
 ╠══✪〘 INTELIGÊNCIA IA 〙✪══
 ║
@@ -109,37 +85,16 @@ const //database
 ║ *${prefix}bomdia*
 ║ *${prefix}boatarde*
 ║ *${prefix}boanoite*
-║ *${prefix}setdesc*
-║ *${prefix}bug [sua mensagem]*
 ║
 ╠══✪〘 ESPECIFICO DO BOT 〙✪══
 ║
 ║ *${prefix}bug [sua mensagem]*
 ║ *${prefix}clonar [@]*
-║ *${prefix}dono*
 ║ *${prefix}ping [ver velocidade do bot]*
 ║ *${prefix}termux*
 ║ *${prefix}gay [@]*
-║ *${prefix}wame*
-║ *${prefix}map (nome)*
-║ *${prefix}setppbot (marque uma img)*
-║ *${prefix}pinterest (nome)*
 ║ *${prefix}desligar (so para o dono)*
 ║ *${prefix}timer*
-║
-╠══✪〘 MAIS ALGUNS 〙✪══
-║
-║ *${prefix}neko*
-║ *${prefix}ttp [texto]*
-║ *${prefix}testime*
-║ *${prefix}tomp3*
-║ *${prefix}animehug*
-║ *${prefix}shoturl*
-║ *${prefix}pokemon*
-║
-║
-║
-║ 
 ║
 ╚═〘 👻 EREN BOT 👻 〙`
 }
